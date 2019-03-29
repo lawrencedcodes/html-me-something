@@ -1,4 +1,30 @@
+
 #header {
     background: #1C1C1B;
     color: white;
+    padding: 0 25px;
+}
+#logo {
+    background: red;
+    margin-right: 25px;
+    padding: 20px;
+}
+#lmenu {
+    background: blue;
+}
+#lmenu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#lmenu ul li {
+    display: inline-block;
+    padding: 20px;
+}
+#rmenu {
+    background: yellow;
+    float: right;
+}
+.hitem {
+    display: inline-block;
 }
