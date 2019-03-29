@@ -14,12 +14,15 @@ body {
     background: url("avengers.jpg") no-repeat left center fixed;
     background-size: cover; 
 }
+#hero p {
+    max-width: 300px;
+}
 #logo {
     background: red;
     margin-right: 25px;
     padding: 20px;
 }
-#lmenu, {
+#lmenu {
     background: blue;
 }
 #lmenu ul, #rmenu ul {
