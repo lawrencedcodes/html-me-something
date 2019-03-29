@@ -20,7 +20,7 @@ html {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(102,51,153,.4);
+    background-image: linear-gradient(to left,rgba(250,250,250,.3), rgba(102,51,153,.8));
 }
 html:hover {
 
@@ -55,7 +55,7 @@ html:hover {
     }
 }
 #left_box h1:hover {
-    font-size: 70px;
+    font-size: 65px;
 }
 #left_box h3 {
     font-size: 25px;
@@ -92,11 +92,15 @@ html:hover {
 #lmenu ul li, #rmenu ul li {
     display: inline-block;
     padding: 20px;
-    color:
+    color: white;
 }
 #lmenu li a, #rmenu li a{
     color: white;
     text-decoration: none;
+    font-family: helvetica;
+}
+#lmenu li a:hover, #rmenu li a:hover {
+    color:blue;
 }
 #rmenu {
     color:white;
@@ -105,4 +109,22 @@ html:hover {
 }
 .hitem {
     display: inline-block;
+    
+}
+#buttons {
+    display: flex;
+}
+#button1, #button2 {
+    padding: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    color: white;
+}
+#button1:hover, #button2:hover {
+    background: black;
+}
+#button1 a,#button2 a {
+    color: white;
+    text-decoration: none;
 }
