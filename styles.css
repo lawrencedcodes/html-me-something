@@ -12,6 +12,16 @@ html {
     background-size: cover; 
     transition: background-image .5s ease-in-out;
 }
+#body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(102,51,153,.4);
+}
 html:hover {
 
 }
@@ -62,9 +72,6 @@ html:hover {
     max-width: 70%;
     font-size: 18px;
     font-weight: 800;
-    background: -webkit-linear-gradient(#eee, #8B008B);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 #logo {
     background: red;
