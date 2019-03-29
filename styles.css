@@ -3,6 +3,16 @@
     background: #1C1C1B;
     color: white;
     padding: 0 25px;
+    margin-top: -10px;
+}
+body {
+     
+}
+#hero {
+    padding: 300px 25px;
+    color: white;
+    background: url("avengers.jpg") no-repeat left center fixed;
+    background-size: cover; 
 }
 #logo {
     background: red;
