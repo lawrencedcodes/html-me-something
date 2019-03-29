@@ -5,11 +5,15 @@
     padding: 0 20px;
     margin: -10px 0 0 -10px;;
     width: 100%;
-    
+    position: fixed;
 }
 html {
-    background: url("avengers.jpg") no-repeat left top fixed;
+    background:url("avengers.jpg") no-repeat left top fixed;
     background-size: cover; 
+    transition: background-image .5s ease-in-out;
+}
+html:hover {
+
 }
 #hero {
     padding: 200px 25px;
@@ -24,6 +28,24 @@ html {
     font-weight: 900;
     margin-top: 10px;
     margin-bottom: 0px;
+    animation: text 3s 1;
+}
+@keyframes text {
+    0% {
+        color: black;
+        margin-bottom: -40px;
+    }
+    30% {
+        letter-spacing: 25px;
+        margin-bottom: -40px
+    }
+    85% {
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+#left_box h1:hover {
+    font-size: 70px;
 }
 #left_box h3 {
     font-size: 25px;
@@ -39,8 +61,10 @@ html {
 #left_box p {
     max-width: 70%;
     font-size: 18px;
-    font-weight: 400;
-
+    font-weight: 800;
+    background: -webkit-linear-gradient(#eee, #8B008B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #logo {
     background: red;
