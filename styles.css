@@ -1,6 +1,6 @@
 
 #header {
-    background: #1C1C1B;
+    background: #1c1c1b;
     color: white;
     padding: 0 20px;
     margin: -10px 0 0 -10px;;
@@ -8,12 +8,12 @@
     position: fixed;
 }
 html {
-    background:url("avengers.jpg") no-repeat left top fixed;
+    background:url("avengers.jpg") no-repeat fixed left top;
     background-size: cover; 
-    transition: background-image .5s ease-in-out;
+   
 }
 #body {
-    position: fixed;
+    
     width: 100%;
     height: 100%;
     top: 0;
@@ -127,4 +127,24 @@ html:hover {
 #button1 a,#button2 a {
     color: white;
     text-decoration: none;
+}
+#addMovies {
+        background: #1c1c1b;
+        color: white;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+}
+.addmovie {
+    background-image: url("https://cdn1-www.comingsoon.net/assets/uploads/2017/10/blackpantherheader.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;     
+    width: 300px;
+    height: 200px;  
+    font-weight: 100;
+    font-style: italic; 
+    font-size: 2rem;
+    padding: 1px;
 }
